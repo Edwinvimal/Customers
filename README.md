@@ -3,14 +3,30 @@ title: Customers (PHP)
 parent: Assignments
 grand_parent: Coding Interviews
 ---
-# Customer Browser
-The goal of this assignment is to demonstrate your familiarity with building an application that consumes a JSON API
+# Assignment
+
+## Introduction
+
+The goal of this assignment is to evaluate your problem solving skills and your familiarity with building an application that consumes a JSON API
 and displays aggregated data. There is no time limit for this assignment but we would advise time boxing the exercise
 to 1-3 hours. Even if you do not complete all of the tasks please submit the assignment.
 
-You will be assessed on the design skills you demonstrate, rather than your proficiency with PHP as a language. Whilst
-the requirements are simple, you should aim to deliver a product that can be easily extended in the future. Feel free
-to provide notes with your submission explaining any decisions or shortcuts you deem appropriate.
+You will be assessed based on:
+  * Your ability to understand the problem and your familiarity with the underlying web technologies.
+  * Your ability to solve problems by writing code that is clear, concise and testable.
+  * The design and architectural decisions you made.
+  * A final product that matches with the given requirements.
+  * A final product that is performant, maintainable and can be easily extended in the future.
+  * Your ability to write effective tests for your implementation.
+   
+You will NOT be assessed based on:
+  * Your proficiency with PHP as a language.
+  * The visual appearance of your application. Don't waste time making things pretty.
+
+Please provide notes with your submission explaining any decisions or shortcuts you deem appropriate.
+This will help us to understand the process that you went through and any constraints, such as limited time, that affected your submission.
+
+## Customer browser
 
 This application is to connect to a [live BigCommerce store](https://store-velgoi8q0k.mybigcommerce.com) via the
 [V2 API](https://developer.bigcommerce.com/api/v2/). The application will consist of the following screens:
@@ -22,12 +38,11 @@ Some skeleton code has been created for you to complete in the following folders
 ```
 app/Http/Controllers
 resources/views
+tests/Unit
+tests/Feature
 ```
 
-You are free, and encouraged, to create whatever additional models, services, etc you deem appropriate. If time allows,
-we would love you to include unit tests for your submission.
-
-You will NOT be judged on the visual appearance of your application. Don't waste time making things pretty.
+You are free, and encouraged, to create whatever additional models, services, etc you deem appropriate.
 
 ## Dependencies
 This application uses the [Laravel framework](https://laravel.com/docs/5.6) which requires PHP >= 7.1 to run. If you do
