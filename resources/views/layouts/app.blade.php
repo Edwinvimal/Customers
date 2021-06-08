@@ -32,7 +32,7 @@
         <nav>
             <ul>
                 <li>
-                    <a href="/customers">Customers</a>
+                    <a href="/customers" style="font-size: 22px;">Customers</a>
                 </li>
             </ul>
         </nav>

@@ -13,6 +13,7 @@
 
 use Bigcommerce\Api\Client;
 
+
 Route::get('/', function () {
     $time = Client::getTime();
     return view('welcome', [
@@ -22,4 +23,10 @@ Route::get('/', function () {
 
 Route::get('/customers', 'CustomersController@index');
 
+
+
 Route::get('/customers/{id}', 'CustomerDetailsController@show');
+
+Route::get('/orders', 'GetOrdersController@index');
+
+Route::get('/products/count','GetProductCount@show');
